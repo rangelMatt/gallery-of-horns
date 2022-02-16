@@ -25,7 +25,7 @@ class HornedBeast extends React.Component {
   render(){
     
     return(
-      <Card style={{width: '18rem'}}>
+      <Card key={{width: '18rem'}}>
       <article>
       <h2 >{this.props.title}</h2>
       <p>☠: {this.state.votes}</p>
@@ -33,6 +33,8 @@ class HornedBeast extends React.Component {
         alt = {this.props.description}
         title = {this.props.title}
         onClick ={this.handleVotes}
+        fluid="true"
+        rounded="true"
       />
       <p>{this.props.description}</p>
     </article>

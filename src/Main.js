@@ -22,8 +22,8 @@ class Main extends React.Component {
     })
     return(
       <main>
-        <Container>
-          <Row md={4}>
+        <Container className="mainContainer">
+          <Row xs={2} sm={2} md={3} lg={4} className ="deck">
           {beastArr}
          </Row>
          </Container>
