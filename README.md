@@ -1,5 +1,19 @@
 # Lab-01: Horned Beast
 
+## Wednesday Feb 16, 2022
+
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+----------------------
+
 ## Tuesday Feb 15, 2022
 
 ### Number and name of feature: **Display Images**
