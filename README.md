@@ -2,11 +2,11 @@
 
 ## Wednesday Feb 16, 2022
 
-Number and name of feature: ________________________________
+Number and name of feature: **Display a Modal**
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2hrs
 
-Start time: _____
+Start time: 3:20pm
 
 Finish time: _____
 
