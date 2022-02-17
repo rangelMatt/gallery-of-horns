@@ -28,8 +28,8 @@ class Main extends React.Component {
           </Col>
           )
           )}
-         </Row>
-         </Container>
+          </Row>
+        </Container>
       </main>
     );
   }
