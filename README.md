@@ -7,10 +7,16 @@ Number and name of feature: **Display a Modal**
 Estimate of time needed to complete: 2hrs
 
 Start time: 3:20pm
+(couple hour break for dinner with family and quiz)
+Finish time: 9:00pm
 
-Finish time: _____
+Actual time needed to complete: 4hrs
 
-Actual time needed to complete: _____
+Journal Entry: Everything that I could break I broke, I think? I broke the site a couple of times and rendered it back up one more time than I broke it. That is key.
+Modal functioning was a big AhHah, accessing and changing the functonality in Modal as children to props being called in App.Js, a couple of brain cells grew at that moment! I mean, I heard those terms being tossed around, and I get it. But it actually started sinking in a bit more the more I struggled with it.
+A question that I had for this is, why wouldn't Modal have an `img, ul, and li` component to it as `header` and `title` do?
+
+### Contributers: Brian Thornburg, Tanner Percival, Nicholas Mercado, Jeffrey Jenkins
 
 ----------------------
 
