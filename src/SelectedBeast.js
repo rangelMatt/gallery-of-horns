@@ -27,7 +27,7 @@ class SelectedBeast extends React.Component {
                   {this.props.beasts.keyword}
                 </li>
                 <li>
-                  {this.props.beasts.horns}
+                    Horn/Horns: {this.props.beasts.horns}
                 </li>
               </ul>
             </Modal.Body>
