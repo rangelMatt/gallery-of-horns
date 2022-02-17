@@ -4,7 +4,7 @@ import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
 import data from './data.json';
-import Modal from 'react-bootstrap/Modal';
+// import Modal from 'react-bootstrap/Modal';
 import SelectedBeast from './SelectedBeast.js';
 
 class App extends React.Component {
@@ -33,19 +33,11 @@ class App extends React.Component {
   render(){
     return (
       <>
+       <Header/>
       <SelectedBeast 
       showModal={this.state.showModal}
       handleCloseModal={this.handleCloseModal}
       beasts={this.state.beasts}/>
-        <Header/>
-        <Modal>
-          <Modal.Header closeButton>
-            <Modal.Title>{this.state.title}</Modal.Title>
-          </Modal.Header>
-            <Modal.Body>
-              {this.state.title}
-            </Modal.Body>
-        </Modal>
 
         <Main 
         data={data} 
