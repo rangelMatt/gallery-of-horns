@@ -8,7 +8,7 @@ import './Main.css'
 class Main extends React.Component {
   render(){
     // proof of life
-    //console.log(this.props.data)
+    // console.log(this.props)
     let beastArr = [];
     this.props.data.forEach((beasts,index) => {
       beastArr.push(
@@ -17,6 +17,9 @@ class Main extends React.Component {
       title ={beasts.title}
       image_url={beasts.image_url}
       description={beasts.description}
+      addShow={this.props.addShow}
+      handleShowModal={this.props.handleShowModal}
+      beasts={beasts}
       />
       )
     })
