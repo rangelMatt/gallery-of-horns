@@ -6,7 +6,7 @@ import './HornedBeast.css'
 
 class HornedBeast extends React.Component {
   // THIS is how we setup state in a component
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       votes: 0,
@@ -25,23 +25,22 @@ class HornedBeast extends React.Component {
     this.props.handleShowModal(this.props.beasts);
   };
 
-
-  render(){
+  render() {
     // console.log(this.props)
-    return(
-      <Card style={{width: '25rem'}} className="p-2 h-100">
-        <Card.Img 
-        onClick={this.handleBeastsClick} 
-        src={this.props.beasts.image_url} 
-        alt={this.props.beasts.description} 
-        title={this.props.beasts.title}
+    return (
+      <Card style={{ width: '18rem' }} className="p-4 h-100">
+        <Card.Img
+          onClick={this.handleBeastsClick}
+          src={this.props.beasts.image_url}
+          alt={this.props.beasts.description}
+          title={this.props.beasts.title}
         />
         <Card.Body>
           <Card.Title>{this.props.beasts.title}</Card.Title>
           <Card.Text>☠:{this.state.votes}</Card.Text>
           <Card.Text>{this.props.beasts.description}</Card.Text>
         </Card.Body>
-    </Card>
+      </Card>
     )
   }
 }

@@ -1,5 +1,23 @@
 # Lab-01: Horned Beast
 
+## Thursday Feb 17, 2022
+
+Number and name of feature: **Filter by Number of Horns**
+
+Estimate of time needed to complete: 3hrs
+
+Start time: 3:00pm
+Finish time: 6:00pm
+
+Actual time needed to complete: 3hrs
+
+Journal Entry: Slowly I am understanding how the parent/child are communicating with eachother. Accessing each property is coming along ok. I am going to have to take some time at looking how this is taking shape over the weekend. The presentation on the code review helped out *immensely*. Will be looking at the white board and reviewing the video from today.
+Specificaly forms, these made total sense and so did the filtering. Again, it was just how to have the paths connect to eachother that I am hitting a wall one. I am **ALMOST** there.
+
+### Contributers: Dan Brian, Tanner Percival
+
+------------------------------
+
 ## Wednesday Feb 16, 2022
 
 Number and name of feature: **Display a Modal**
@@ -18,7 +36,7 @@ A question that I had for this is, why wouldn't Modal have an `img, ul, and li` 
 
 ### Contributers: Brian Thornburg, Tanner Percival, Nicholas Mercado, Jeffrey Jenkins
 
-----------------------
+------------------------------
 
 ## Tuesday Feb 15, 2022
 
@@ -54,13 +72,13 @@ Actual time needed to complete: 35min
 
 ### Contributers: Brian Thornburg, Tanner Percival
 
-----------------------
+------------------------------
 
 ## Monday Feb 14, 2022
 
 Created a site using Feature tasks for horned beasts.
 
-----------------------
+------------------------------
 
 ## Author: Matt Rangel
 
