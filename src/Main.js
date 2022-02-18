@@ -60,16 +60,7 @@ class Main extends React.Component {
 
         <Container>
           <Form onSubmit={this.handleSubmit} style={{ width: 'max-content', margin: 'auto' }}>
-            {/* <Form.Group controlId="name">
-              <Form.Label>Name</Form.Label>
-              <Form.Control type="text" onInput={this.handleName} />
-            </Form.Group>
-
-            <Form.Group controlId="word">
-              <Form.Label>handleWord</Form.Label>
-              <Form.Control type="text" onChange={this.handleWord} />
-            </Form.Group> */}
-
+        
             <Form.Group controlId="selected">
               <Form.Select onChange={this.props.handleSelect}>
                 <option value="data">All</option>
