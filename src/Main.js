@@ -72,7 +72,7 @@ class Main extends React.Component {
 
             <Form.Group controlId="selected">
               <Form.Select onChange={this.props.handleSelect}>
-              <option value="data">All</option>
+                <option value="data">All</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
                 <option value="three">3</option>
@@ -85,15 +85,16 @@ class Main extends React.Component {
 
 
         <Container className="mainContainer">
-          <Row xs={2} sm={2} md={3} lg={4}>{this.props.data.map((beasts, index) => (<Col key={index}>
-            <HornedBeast
-              addShow={this.props.addShow}
-              handleShowModal={this.props.handleShowModal}
-              beasts={beasts}
-            />
-          </Col>
-          )
-          )}
+          <Row xs={2} sm={2} md={3} lg={4}>
+            {this.props.data.map((beasts, index) => (<Col key={index}>
+              <HornedBeast
+                addShow={this.props.addShow}
+                handleShowModal={this.props.handleShowModal}
+                beasts={beasts}
+              />
+            </Col>
+            )
+            )}
           </Row>
         </Container>
       </main>

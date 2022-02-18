@@ -36,7 +36,7 @@ A question that I had for this is, why wouldn't Modal have an `img, ul, and li` 
 
 ### Contributers: Brian Thornburg, Tanner Percival, Nicholas Mercado, Jeffrey Jenkins
 
-----------------------
+------------------------------
 
 ## Tuesday Feb 15, 2022
 
@@ -72,13 +72,13 @@ Actual time needed to complete: 35min
 
 ### Contributers: Brian Thornburg, Tanner Percival
 
-----------------------
+------------------------------
 
 ## Monday Feb 14, 2022
 
 Created a site using Feature tasks for horned beasts.
 
-----------------------
+------------------------------
 
 ## Author: Matt Rangel
 

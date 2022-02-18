@@ -1,11 +1,11 @@
 import React from 'react';
 
 class Footer extends React.Component {
-  render(){
-    return(
+  render() {
+    return (
       <footer>
-      <div id="author">Author: Matt Rangel</div>
-      &copy; CodeFellows 2022
+        <div id="author">Author: Matt Rangel</div>
+        &copy; CodeFellows 2022
       </footer>
     );
   }
