@@ -25,11 +25,10 @@ class HornedBeast extends React.Component {
     this.props.handleShowModal(this.props.beasts);
   };
 
-
   render(){
     // console.log(this.props)
     return(
-      <Card style={{width: '25rem'}} className="p-2 h-100">
+      <Card style={{width: '18rem'}} className="p-4 h-100">
         <Card.Img 
         onClick={this.handleBeastsClick} 
         src={this.props.beasts.image_url} 
